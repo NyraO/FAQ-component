@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>FAQ component</title>
+        <title>FAQ1 component</title>
         <link rel="stylesheet" href="./style.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans">
     </head>
     <body>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
         <div class="accordion-container">
             <div class="illustration">
                 <img id="patter-img" src="./images/bg-pattern-desktop.svg" alt="random-patter"/>
@@ -13,28 +17,31 @@
                 <img id ="box-img" src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop"/>
             </div>
             <div>
-                <h1>FAQ</h1>
-                <div class="que-container">
-                    <p>How many team members can I invite?</p>
+                <h2>FAQ</h2>
+                <div id="que-container" onclick="accordion.arrow_down()">
+                    <p id="first">How many team members can I invite?</p>
                     <img id="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down-icon"/>
                 </div>
-              <div class="que-container">
+              <div id="que-container" onclick="accordion.arrow_down()">
                 <p>What is the maximum file upload size?</p>
                 <img id="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down-icon"/>
               </div>
-              <div class="que-container">
+              <div id="que-container" onclick="accordion.arrow_down()">
                 <p>How do I reset my password?</p>
                 <img id="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down-icon"/>
               </div>
-              <div class="que-container">
+              <div id="que-container" onclick="accordion.arrow_down()">
                 <p>Can I cancel my subscription?</p>
                 <img id="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down-icon"/>
               </div>
-              <div class="que-container">
+              <div id="que-container" onclick="accordion.arrow_down()">
                 <p>Do you provide additional support?</p>
                 <img id="arrow" src="./images/icon-arrow-down.svg" alt="arrow-down-icon"/>
               </div>
             </div>
-            </div>
+        </div>
+        <div>
+        </div>
+        <script src="./myScript.js"></script>
     </body>
 </html>
