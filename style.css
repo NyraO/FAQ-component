@@ -36,7 +36,7 @@
     top:185px;
     left:230px; 
 }
-#arrow{
+#arrow1,#arrow2,#arrow3,#arrow4,#arrow5{
     float: right;
 }
 h2{
@@ -52,6 +52,7 @@ p:hover{
     color:hsl(14, 88%, 65%);
     cursor: pointer;
 }
+
 body{
     font-family:'Kumbh Sans', Helvetica, sans-serif;
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
