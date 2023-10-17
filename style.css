@@ -5,7 +5,7 @@
     border-radius: 25px;
     box-shadow: 0px 6px 30px hsl(0, 2%, 24%);
 }
-#que-container{
+#que-container1,#que-container2,#que-container3,#que-container4,#que-container5{
     border-bottom:solid;
     border-width: 1px;
     border-color: hsl(240, 5%, 91%);
